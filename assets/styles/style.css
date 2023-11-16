@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+.header-options {
+  display: none;
+}
+
 body {
   font-family: 'montserrat', sans-serif;
 }
@@ -295,6 +299,11 @@ main {
   font-size: 2rem;
 }
 
+.meet1-a p {
+  padding: 0 2rem;
+  font-size: 0.9rem;
+}
+
 .meet1-b {
   display: flex;
   flex-direction: column;
@@ -445,6 +454,49 @@ footer {
 
 #end {
   text-align: center;
-  background-color: rgb(34, 111, 134);
+  background-color: #226f86;
   padding: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .heading,
+  .heading-options
+  .menu-options {
+    display: none;
+    background: none;
+    display: none;
+  }
+  
+  
+  header,
+  .background2 {
+    background-image: linear-gradient(to bottom, #54597485, #8a567cba), url("../images/background\ img.jpg");
+    background-color: lightgray;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .header-options {
+    display: grid;
+    grid-template-columns: 40% 50% 10%;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+#symbols {
+  display: flex;
+  gap: 1rem;
+}
+
+.section1 {
+  display: flex;
+}
+
 }
