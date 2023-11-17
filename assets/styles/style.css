@@ -53,6 +53,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  padding-bottom: 1rem;
 }
 
 .main-text {
@@ -127,14 +128,14 @@ body {
 #name,
 #email,
 #time,
-#button1 {
+.button1 {
   margin: 0 1.3rem;
   display: flex;
   flex-direction: column;
   gap: 0.7rem;
 }
 
-#button1 button {
+.button1 button {
   width: 100%;
   height: 100%;
   padding: 0.7rem 0;
@@ -156,12 +157,13 @@ main {
 }
 
 .why-choose p {
-  padding: 1rem 0; 
+  padding: 1rem 2rem; 
+  font-size: 0.9rem;
 }
 
 .why-choose h1 {
   text-align: center;
-  padding: 1rem 0;
+  padding-top: 2.5rem;
   font-size: 2rem;
 }
 
@@ -228,7 +230,6 @@ main {
   width: 20%;
   height: 40%;
   border-radius: 3rem;
-  background-color: red;
 }
 
 .client1-a,
@@ -308,7 +309,9 @@ main {
   display: flex;
   flex-direction: column;
   background-color: #252B42;
-  gap: 2rem;
+  margin: 0 2rem;
+  gap: 1rem;
+  padding-bottom: 2rem;
 }
 
 .meet1-b img {
@@ -325,7 +328,6 @@ main {
   justify-content: center;
   text-align: center;
   border: 1px solid gray;
-  margin: 0 2rem;
   background-color: #ffffff;
 }
 
@@ -337,9 +339,9 @@ main {
   height: 100%;
 }
 
-#iconi p {
+.iconi p {
   color: black;
-  line-height: 1.5rem;
+  line-height: 1.2rem;
 }
 
 .social {
@@ -347,12 +349,17 @@ main {
 }
 
 .contact-us {
-  background-image: linear-gradient(to bottom, #b7b7ca85, #96838fba), url("../images/last\ img\ background.avif");
+  background-image: linear-gradient(to bottom, #7272be85, #695d66ba), url("../images/last\ img\ background.avif");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
   padding: 2rem 0;
 }
 
-.contact-us .book-app2 {
-  opacity: 0.9;
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .book-app2 {
@@ -378,8 +385,6 @@ main {
   width: 100%;
   height: 100%;
   padding: 0.8rem 0;
-  border-radius: 0.4rem;
-  border-color: #ffffff;
 
 }
 
@@ -440,7 +445,7 @@ footer {
   display: flex;
   justify-content: right;
   border: 1px solid white;
-  border-radius: 0.7rem;
+  border-radius: 0.2rem;
   background-color: white;
   color: white;
 }
@@ -448,8 +453,8 @@ footer {
 #suscribe-box {
   background-color: #FFA62B;
   padding: 0.6rem 1.3rem;
-  border-bottom-right-radius: 0.7rem;
-  border-top-right-radius: 0.7rem;
+  border-bottom-right-radius: 0.2rem;
+  border-top-right-radius: 0.2rem;
 }
 
 #end {
@@ -473,30 +478,202 @@ footer {
     display: none;
   }
   
-  
   header,
   .background2 {
-    background-image: linear-gradient(to bottom, #54597485, #8a567cba), url("../images/background\ img.jpg");
+    background-image: linear-gradient(to bottom, #141b4285, #4b2a42ba), url("../images/background\ img.jpg");
     background-color: lightgray;
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
   }
 
   .header-options {
     display: grid;
     grid-template-columns: 40% 50% 10%;
-    text-align: center;
+    text-align: center; 
     padding-top: 2rem;
   }
 
 #symbols {
   display: flex;
   gap: 1rem;
+  font-size: 0.8rem;
 }
 
 .section1 {
-  display: flex;
-}
+  display: grid;
+  grid-template-columns: 50% 41%;
+  gap: 2rem;
+  padding: 2rem;
+ }
+  .book-app {
+    margin: 0;
+    padding: 1px;
+    padding: 2rem;
+  }
+
+  .choice {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    justify-content: center;
+  }
+
+  #quote,
+  #learn-more {
+    padding: 0.2 1rem;
+    font-size: 0.8rem;
+  }
+
+  #department,
+  #name,
+  #email,
+  #time,
+  .button1 {
+    gap: 0.2rem;
+  }
+
+  .text1 h1 {
+    font-size: 2.2rem;
+    flex-wrap: wrap;padding-bottom: 1.5rem;
+  }
+
+  .text1 p {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+  }
+
+  .why-choose {
+    padding: 2rem 0;
+  }
+
+  .why-choose h1 {
+    font-size: 3rem;
+  }
+
+  .why-choose p {
+    margin: 0 4rem;
+    font-size: 0.9rem;
+  }
+
+  .why-choose-box {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 0 2rem;
+    gap: 0.8rem;
+  }
+
+  .business,
+  .web,
+  .national {
+    margin: 1rem 0;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+  }
+
+  .background4 {
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .take-care h1 {
+    font-size: 2.3rem;
+    color: white;
+    margin: 0 5rem;
+  }
+
+  .take-care p {
+    margin: 0 7rem;
+  }
+
+   .office img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .office-background {
+    padding: 0 5rem;
+  }
+
+  .client1 {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    margin: 0 5rem;
+  }
+
+  .meet1-b {
+    display: flex;
+    flex-direction: row;
+    padding: 0 4rem;
+  }
+
+  .meet {
+    padding: 3rem 0;
+  }
+
+  .meet1-a h1 {
+    font-size: 2.5rem;
+  }
+
+  .flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .contact-us {
+    padding: 0 4rem;
+    display: grid;
+    grid-template-columns: 60% 1fr;
+  }
+
+  .flex #department2,
+  #time2 {
+    width: 49%;
+  }
+
+  .flex #name2,
+  #email2 {
+    width: 49%;
+  }
+
+  .book-app2 h2 {
+    font-size: 2rem;
+  }
+
+  .agency-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  .end-1 {
+    padding: 0 4rem;
+  }
+
+  .footer1 {
+    border-bottom: 1px solid #364067;
+  }
+
+  .footer2 {
+    display: grid;
+    grid-template-columns: 15% 15% 15% 18% 60%; 
+  }
+
+  .suscribe {
+    width: 35%;
+    height: 60%;
+  }
+
+  #suscribe-box {
+    padding: 0 0.1rem;
+  }
 
 }
