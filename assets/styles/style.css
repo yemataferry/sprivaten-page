@@ -497,18 +497,18 @@ footer {
     padding-top: 2rem;
   }
 
-#symbols {
-  display: flex;
-  gap: 1rem;
-  font-size: 0.8rem;
-}
+  #symbols {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.8rem;
+  }
 
-.section1 {
-  display: grid;
-  grid-template-columns: 50% 41%;
-  gap: 2rem;
-  padding: 2rem;
- }
+  .section1 {
+    display: grid;
+    grid-template-columns: 50% 41%;
+    gap: 2rem;
+    padding: 2rem;
+  }
   .book-app {
     margin: 0;
     padding: 1px;
@@ -675,5 +675,4 @@ footer {
   #suscribe-box {
     padding: 0 0.1rem;
   }
-
 }
