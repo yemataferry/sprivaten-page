@@ -1,0 +1,499 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header-options {
+  display: none;
+}
+
+body {
+  font-family: montserrat, sans-serif;
+}
+
+.heading-options {
+  display: grid;
+  grid-template-columns: 50% 30% 20%;
+  justify-content: center;
+}
+
+#company-name {
+  padding-left: 1rem;
+}
+
+#span {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.menu-options p {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+
+.menu-options {
+  padding-bottom: 3rem;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  background-color: #252b42;
+  color: white;
+  gap: 5rem;
+  padding-top: 2rem;
+}
+
+.background2 {
+  background-image: linear-gradient(to bottom, #54597485, #8a567cba), url("../images/background\ img.jpg");
+  background-color: lightgray;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-text {
+  text-align: center;
+  flex-wrap: wrap;
+  color: #fff;
+  line-height: 1.4rem;
+}
+
+.text1 {
+  padding: 0 3rem;
+}
+
+.main-text h1 {
+  font-size: 1.6rem;
+  line-height: 2rem;
+  padding-top: 5rem;
+}
+
+.choice {
+  padding: 0 5rem;
+}
+
+.main-text p {
+  padding: 1rem 0;
+}
+
+#quote {
+  background-color: #ffa62b;
+}
+
+#quote,
+#learn-more {
+  border: 1px solid lightgray;
+  border-radius: 4rem;
+  padding: 0.4rem 0.1rem;
+  margin-top: 0.9rem;
+}
+
+.book-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid lightgray;
+  border-radius: 0.5rem;
+  margin: 2rem;
+  background-color: white;
+  color: black;
+}
+
+#book-header {
+  padding: 2rem 0;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#d-department,
+#n-name,
+#e-email,
+#t-time {
+  width: 100%;
+  height: 100%;
+  padding: 0.4rem 0;
+}
+
+#d-department,
+#t-time {
+  color: #868484;
+}
+
+#department,
+#name,
+#email,
+#time,
+#button1 {
+  margin: 0 1.3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+#button1 button {
+  width: 100%;
+  height: 100%;
+  padding: 0.7rem 0;
+  background-color: #ffa62b;
+  border-color: transparent;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  border-radius: 0.4rem;
+  color: white;
+}
+
+main {
+  background-color: #252b42;
+  color: #e4dfdf;
+}
+
+.why-choose {
+  text-align: center;
+}
+
+.why-choose p {
+  padding: 1rem 0;
+}
+
+.why-choose h1 {
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 2rem;
+}
+
+.growing,
+.firms,
+.development {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+
+.blue {
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 4rem;
+  padding: 1.1rem;
+}
+
+.business,
+.web,
+.national {
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  margin: 1rem 2rem;
+  background-color: #c0e9f1;
+  color: #2b2929;
+}
+
+.paragraph {
+  border: 1px solid lightgray;
+  border-radius: 0.7rem;
+  padding: 1rem 1.5rem;
+  background-color: white;
+  line-height: 1.7rem;
+  font-size: 0.9rem;
+}
+
+.background3 p {
+  padding-top: 1rem;
+}
+
+.client1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 0 2rem;
+}
+
+.client1 p {
+  font-size: 0.8rem;
+}
+
+.client1-x {
+  padding: 0 1rem;
+  gap: 0.9rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.client1-a img,
+.client1-b img,
+.client1-c img {
+  width: 20%;
+  height: 40%;
+  border-radius: 3rem;
+  background-color: red;
+}
+
+.client1-a,
+.client1-b,
+.client1-c {
+  border: 1px solid lightgray;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color: white;
+  color: black;
+}
+
+.miles {
+  display: flex;
+  gap: 1rem;
+}
+
+.client-say h1 {
+  font-size: 2.5rem;
+  padding: 0.7rem;
+}
+
+.client-say {
+  padding: 2rem 2.5rem;
+  text-align: center;
+}
+
+.client-say p {
+  font-size: 0.9rem;
+}
+
+.take-care {
+  padding: 1.9rem;
+  text-align: center;
+}
+
+.take-care p {
+  padding-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.take-care h1 {
+  font-size: 1.9rem;
+}
+
+.office img {
+  justify-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 0 2rem;
+  position: relative;
+  bottom: 4rem;
+}
+
+.office-background {
+  background-color: #0c464680;
+  color: transparent;
+  margin-top: 5rem;
+}
+
+.meet1-a {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.meet1-a h1 {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.meet1-a p {
+  padding: 0 2rem;
+  font-size: 0.9rem;
+}
+
+.meet1-b {
+  display: flex;
+  flex-direction: column;
+  background-color: #252b42;
+  gap: 2rem;
+}
+
+.meet1-b img {
+  width: 100%;
+  height: 100%;
+}
+
+.meet1-c,
+.meet1-d,
+.meet1-e,
+.meet1-f {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid gray;
+  margin: 0 2rem;
+  background-color: #fff;
+}
+
+.meet1-c img,
+.meet1-d img,
+.meet1-e img,
+.meet1-f img {
+  width: 100%;
+  height: 100%;
+}
+
+#iconi p {
+  color: black;
+  line-height: 1.5rem;
+}
+
+.social {
+  padding-top: 0.7rem;
+}
+
+.book-app2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem;
+  color: white;
+  gap: 1rem;
+}
+
+.contact-us {
+  background-image: linear-gradient(to bottom, #b7b7ca85, #96838fba), url("../images/last\ img\ background.avif");
+  padding: 2rem 0;
+}
+
+.contact-us .book-app2 {
+  opacity: 0.9;
+}
+
+#book-header2 {
+  padding: 2rem 1rem 0 0;
+  font-size: 1.2rem;
+  text-align: left;
+}
+
+#d-department2,
+#n-name2,
+#e-email2,
+#m-message2,
+#t-time2 {
+  width: 100%;
+  height: 100%;
+  padding: 0.8rem 0;
+  border-radius: 0.4rem;
+  border-color: #fff;
+}
+
+#d-department2,
+#t-time2 {
+  color: #868484;
+}
+
+#m-message2 {
+  padding-bottom: 5rem;
+  text-align: left;
+}
+
+.consulting-agency {
+  background-color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.agency-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: black;
+  text-align: left;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: #252b42;
+  color: #fff;
+}
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.footer-icon {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer2 {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  font-size: 0.8rem;
+  line-height: 1.9rem;
+  padding: 0 2.2rem;
+}
+
+.suscribe-container {
+  display: flex;
+  justify-content: right;
+  border: 1px solid white;
+  border-radius: 0.7rem;
+  background-color: white;
+  color: white;
+}
+
+#suscribe-box {
+  background-color: #ffa62b;
+  padding: 0.6rem 1.3rem;
+  border-bottom-right-radius: 0.7rem;
+  border-top-right-radius: 0.7rem;
+}
+
+#end {
+  text-align: center;
+  background-color: #226f86;
+  padding: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  .heading,
+  .heading-options,
+  .menu-options {
+    display: none;
+    background: none;
+  }
+
+  header,
+  .background2 {
+    background-image: linear-gradient(to bottom, #54597485, #8a567cba), url("../images/background\ img.jpg");
+    background-color: lightgray;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .header-options {
+    display: grid;
+    grid-template-columns: 40% 50% 10%;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  #symbols {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .section1 {
+    display: flex;
+  }
+}
