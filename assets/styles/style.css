@@ -401,7 +401,7 @@ main {
 .consulting-agency {
   background-color: white;
   text-align: center;
-  padding: 2rem 2rem;
+  padding: 2rem;
 }
 
 .agency-text {
@@ -538,7 +538,8 @@ footer {
 
   .text1 h1 {
     font-size: 2.2rem;
-    flex-wrap: wrap;padding-bottom: 1.5rem;
+    flex-wrap: wrap;
+    padding-bottom: 1.5rem;
   }
 
   .text1 p {
