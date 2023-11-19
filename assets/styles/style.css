@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
+
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .header-options {
@@ -10,7 +11,7 @@
 }
 
 body {
-  font-family: 'montserrat', sans-serif;
+  font-family: montserrat, sans-serif;
 }
 
 .heading-options {
@@ -41,7 +42,7 @@ body {
 .heading {
   display: flex;
   flex-direction: column;
-  background-color: #252B42;
+  background-color: #252b42;
   color: white;
   gap: 5rem;
   padding-top: 2rem;
@@ -59,7 +60,7 @@ body {
 .main-text {
   text-align: center;
   flex-wrap: wrap;
-  color: #ffffff;
+  color: #fff;
   line-height: 1.4rem;
 }
 
@@ -82,7 +83,7 @@ body {
 }
 
 #quote {
-  background-color: #FFA62B;
+  background-color: #ffa62b;
 }
 
 #quote,
@@ -99,7 +100,7 @@ body {
   justify-content: center;
   border: 1px solid lightgray;
   border-radius: 0.5rem;
-  margin: 2rem 2rem;
+  margin: 2rem;
   background-color: white;
   color: black;
 }
@@ -139,7 +140,7 @@ body {
   width: 100%;
   height: 100%;
   padding: 0.7rem 0;
-  background-color: #FFA62B;
+  background-color: #ffa62b;
   border-color: transparent;
   margin: 1rem 0;
   font-size: 1.1rem;
@@ -148,7 +149,7 @@ body {
 }
 
 main {
-  background-color: #252B42;
+  background-color: #252b42;
   color: #e4dfdf;
 }
 
@@ -157,7 +158,7 @@ main {
 }
 
 .why-choose p {
-  padding: 1rem 2rem; 
+  padding: 1rem 2rem;
   font-size: 0.9rem;
 }
 
@@ -180,7 +181,7 @@ main {
   border: 1px solid lightgray;
   background-color: white;
   border-radius: 4rem;
-  padding: 1.1rem 1.1rem;
+  padding: 1.1rem;
 }
 
 .business,
@@ -237,7 +238,7 @@ main {
 .client1-c {
   border: 1px solid lightgray;
   border-radius: 1rem;
-  padding: 1rem 1rem;
+  padding: 1rem;
   background-color: white;
   color: black;
 }
@@ -308,7 +309,7 @@ main {
 .meet1-b {
   display: flex;
   flex-direction: column;
-  background-color: #252B42;
+  background-color: #252b42;
   margin: 0 2rem;
   gap: 1rem;
   padding-bottom: 2rem;
@@ -328,7 +329,7 @@ main {
   justify-content: center;
   text-align: center;
   border: 1px solid gray;
-  background-color: #ffffff;
+  background-color: #fff;
 }
 
 .meet1-c img,
@@ -366,7 +367,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 3rem 3rem;
+  margin: 3rem;
   color: white;
   gap: 1rem;
 }
@@ -385,7 +386,6 @@ main {
   width: 100%;
   height: 100%;
   padding: 0.8rem 0;
-
 }
 
 #d-department2,
@@ -416,15 +416,15 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 3rem;
-  background-color: #252B42;
-  color: #ffffff;
+  background-color: #252b42;
+  color: #fff;
 }
 
 .footer1 {
   display: flex;
   flex-direction: column;
   gap: 2rem;
-  padding: 2rem 2rem;
+  padding: 2rem;
 }
 
 .footer-icon {
@@ -451,7 +451,7 @@ footer {
 }
 
 #suscribe-box {
-  background-color: #FFA62B;
+  background-color: #ffa62b;
   padding: 0.6rem 1.3rem;
   border-bottom-right-radius: 0.2rem;
   border-top-right-radius: 0.2rem;
@@ -471,13 +471,12 @@ footer {
   }
 
   .heading,
-  .heading-options
+  .heading-options,
   .menu-options {
     display: none;
     background: none;
-    display: none;
   }
-  
+
   header,
   .background2 {
     background-image: linear-gradient(to bottom, #141b4285, #4b2a42ba), url("../images/background\ img.jpg");
@@ -493,7 +492,7 @@ footer {
   .header-options {
     display: grid;
     grid-template-columns: 40% 50% 10%;
-    text-align: center; 
+    text-align: center;
     padding-top: 2rem;
   }
 
@@ -509,6 +508,7 @@ footer {
     gap: 2rem;
     padding: 2rem;
   }
+
   .book-app {
     margin: 0;
     padding: 1px;
@@ -591,7 +591,7 @@ footer {
     margin: 0 7rem;
   }
 
-   .office img {
+  .office img {
     width: 100%;
     height: 400px;
   }
@@ -664,7 +664,7 @@ footer {
 
   .footer2 {
     display: grid;
-    grid-template-columns: 15% 15% 15% 18% 60%; 
+    grid-template-columns: 15% 15% 15% 18% 60%;
   }
 
   .suscribe {
