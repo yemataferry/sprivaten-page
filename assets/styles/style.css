@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap");
 
 * {
   box-sizing: border-box;
@@ -466,7 +466,7 @@ footer {
   }
 
   .heading,
-  .heading-options
+  .heading-options,
   .menu-options {
     display: none;
     background: none;
@@ -488,12 +488,12 @@ footer {
     padding-top: 2rem;
   }
 
-#symbols {
-  display: flex;
-  gap: 1rem;
-}
+  #symbols {
+    display: flex;
+    gap: 1rem;
+  }
 
-.section1 {
-  display: flex;
-}
+  .section1 {
+    display: flex;
+  }
 }
